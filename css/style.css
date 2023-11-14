@@ -8,6 +8,7 @@
 /* Generics */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
 }
 
 h1 {
@@ -18,10 +19,19 @@ h1 {
     line-height: 80px;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 80px;
+    margin-top: 30px;
+}
+
 /* Header */
 .logo {
     vertical-align: middle;
     margin-left: 25px;
+    height: 60px;
 }
 
 .title {
