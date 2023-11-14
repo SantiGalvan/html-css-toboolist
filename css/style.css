@@ -84,6 +84,26 @@ ul {
     color: #fff;
 }
 
+.selector {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.check {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
 
 
 /* Header */
@@ -103,3 +123,6 @@ ul {
 }
 
 /* Section list */
+li {
+    margin: 10px;
+}
