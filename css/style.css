@@ -1,7 +1,30 @@
-/* font-family: Arial, Helvetica, sans-serif; */
 /* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+/* Header */
+.logo {
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.title {
+    background-color: #fff;
+    height: 80px;
 }
