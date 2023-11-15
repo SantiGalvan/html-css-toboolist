@@ -78,6 +78,10 @@ ul {
     background-color: #d863a1;
 }
 
+.light-green {
+    background-color: greenyellow;
+}
+
 .bg {
     padding: 5px 8px;
     border-radius: 20px;
